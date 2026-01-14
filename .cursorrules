@@ -1,0 +1,10 @@
+# Project Context
+
+## Development Environment
+- Clerk DEV MODE (not production)
+- EAS development build (not Expo Go)
+- Local Metro server
+
+## Architecture Notes
+- Protected routes use Expo Router's Stack.Protected guards
+
