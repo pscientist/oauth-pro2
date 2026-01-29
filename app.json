@@ -11,6 +11,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.cathyapp1234.oauthpro2",
+      "buildNumber": "4",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -55,6 +56,12 @@
         "projectId": "a31c0453-d16e-4818-aa19-d380a5bfc5d4"
       }
     },
-    "owner": "cathyapp1234"
+    "owner": "cathyapp1234",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a31c0453-d16e-4818-aa19-d380a5bfc5d4"
+    }
   }
 }
