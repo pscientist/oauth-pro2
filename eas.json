@@ -1,8 +1,7 @@
 {
   "cli": {
     "version": ">= 16.28.0",
-    /* "appVersionSource": "remote" */
-    "versionSource": "remote"
+    "appVersionSource": "remote" 
   },
   "build": {
     "development": {
@@ -12,10 +11,11 @@
     },
     "preview": {
       "distribution": "store",
-      "channel": "preview"
+      "channel": "preview",
+      "autoIncrement": true
     },
     "production": {
-      "autoIncrement": true,
+      "autoIncrement": true, 
       "distribution":  "store"
     }
   },
