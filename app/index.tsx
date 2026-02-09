@@ -24,7 +24,7 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Simple OAuth Prototype</Text>
+      <Text style={styles.title}>OAuth Prototype</Text>
       <View style={styles.linksContainer}>
         <TouchableOpacity
           onPress={handleLoginPress}
