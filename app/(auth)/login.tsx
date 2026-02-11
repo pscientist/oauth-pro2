@@ -18,6 +18,8 @@ export default function Login() {
   const router = useRouter();
   const [loading, setLoading] = React.useState(false);
 
+  const redirectUrl = Linking.createURL("/oauth-native-callback");
+
   const onGoogleSignInPress = async () => {
     console.log("onGoogleSignInPress");
     try {
@@ -25,7 +27,7 @@ export default function Login() {
 
       // Creates a deep link by prefixing the path with the app scheme/host.
       // Example: myapp://oauth-native-callback (must match Clerk redirect config in Step 2).
-      const redirectUrl = Linking.createURL("/oauth-native-callback");
+      // const redirectUrl = Linking.createURL("/oauth-native-callback");
 
       // Starts the OAuth browser flow and returns the created session (if any)
       // plus a helper to activate it in the Clerk client.
@@ -64,7 +66,10 @@ export default function Login() {
           {loading ? (
             <ActivityIndicator color="#FFFFFF" />
           ) : (
-            <Text style={styles.linkText}>Sign in with Google</Text>
+            <>
+              <Text style={styles.linkText}>Sign in with Google</Text>
+              <Text style={styles.linkText}>redirectUrl: {redirectUrl}</Text>
+            </>
           )}
         </TouchableOpacity>
       </View>

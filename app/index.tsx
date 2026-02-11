@@ -31,7 +31,7 @@ export default function Index() {
           style={styles.link}
           activeOpacity={0.7}
         >
-          <Text style={styles.linkText}>Go to Login</Text>
+          <Text style={styles.linkText}>Google Login</Text>
         </TouchableOpacity>
         <TouchableOpacity
           onPress={handleProtectedPress}
