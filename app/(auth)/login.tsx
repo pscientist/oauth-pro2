@@ -68,7 +68,7 @@ export default function Login() {
           ) : (
             <>
               <Text style={styles.linkText}>Sign in with Google</Text>
-              <Text style={styles.linkText}>redirectUrl: {redirectUrl}</Text>
+              <Text>Return URL: {redirectUrl}</Text>
             </>
           )}
         </TouchableOpacity>
