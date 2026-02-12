@@ -2,6 +2,7 @@
   "expo": {
     "name": "oauth-pro2",
     "slug": "oauth-pro2",
+    /*Apple version ID */
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/oAuth_Pro.jpeg",
@@ -10,8 +11,9 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
+      /* Apple App Store Bundle ID */
       "bundleIdentifier": "com.cathyapp1234.oauthpro2",
-      /*"buildNumber": "4", */
+      // "buildNumber": "4",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }

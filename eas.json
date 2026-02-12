@@ -1,22 +1,26 @@
 {
   "cli": {
     "version": ">= 16.28.0",
+    /* EAS will update the app version number */
     "appVersionSource": "remote" 
   },
   "build": {
     "development": {
       "developmentClient": true,
+      /*EAS*/
       "distribution": "internal",
       "channel": "development"
     },
     "preview": {
+      /*App Store*/
       "distribution": "store",
       "channel": "preview",
       "autoIncrement": true
     },
     "production": {
       "autoIncrement": true, 
-      "distribution":  "store"
+      "distribution":  "store", 
+      channel: "production"
     }
   },
   "submit": {
