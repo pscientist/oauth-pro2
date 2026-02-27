@@ -20,7 +20,7 @@
     "production": {
       "autoIncrement": true, 
       "distribution":  "store", 
-      channel: "production"
+      "channel": "production"
     }
   },
   "submit": {

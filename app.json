@@ -3,7 +3,7 @@
     "name": "oauth-pro2",
     "slug": "oauth-pro2",
     /*Apple version ID */
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/oAuth_Pro.jpeg",
     "scheme": "oauthpro2",
