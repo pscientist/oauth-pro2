@@ -1,6 +1,5 @@
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import Constants from "expo-constants";
-import { LinearGradient } from "expo-linear-gradient";
 import { useRouter } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -26,14 +25,9 @@ export default function Index() {
   };
 
   return (
-    <LinearGradient
-      colors={["#b76e79", "#ffffff"]}
-      start={{ x: 0, y: 0 }}
-      end={{ x: 1, y: 1 }}
-      style={styles.gradient}
-    >
-      <View style={styles.container}>
-        <Text style={styles.title}>OAuth Prototype</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>OAuth Prototype</Text>
+      <Text> This is a prototype for the OAuth implementation. This is a work in progress.</Text>
       <View style={styles.linksContainer}>
         <TouchableOpacity
           onPress={handleLoginPress}
@@ -59,14 +53,10 @@ export default function Index() {
         Version {Constants.expoConfig?.version ?? "1.0.0"}
       </Text>
       </View>
-    </LinearGradient>
   );
 }
 
 const styles = StyleSheet.create({
-  gradient: {
-    flex: 1,
-  },
   container: {
     flex: 1,
     justifyContent: "center",
