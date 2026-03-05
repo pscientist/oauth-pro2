@@ -59,9 +59,11 @@
       }
     },
     "owner": "cathyapp1234",
+    /* to tell the server which version of this binary is*/
     "runtimeVersion": {
       "policy": "appVersion"
     },
+    /* to tell the server where to find the updates for this app */
     "updates": {
       "url": "https://u.expo.dev/a31c0453-d16e-4818-aa19-d380a5bfc5d4"
     }

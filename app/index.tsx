@@ -27,7 +27,9 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>OAuth Prototype</Text>
-      <Text> This is a prototype for the OAuth implementation. This is a work in progress.</Text>
+      <Text> This is a prototype for the OAuth implementation. 
+        This is a work in progress.
+        This is still under development and needs polish.</Text>
       <View style={styles.linksContainer}>
         <TouchableOpacity
           onPress={handleLoginPress}
